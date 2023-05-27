@@ -184,7 +184,7 @@ button:hover {
 @media (max-width: 480px) {
   h1 {
     font-family: comics-2;
-    font-size: 60px;
+    font-size: 40px;
     text-align: left;
     color: red;
     width: 25%;
