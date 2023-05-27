@@ -1,0 +1,1347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+
+}
+
+/*Fuentes*/
+
+@font-face {
+    font-family: comics;
+    src: url(./font/Comicy.ttf);
+
+}
+
+@font-face {
+    font-family: comics-2;
+    src: url(./font/Comica\ BD\ Bold.ttf);
+
+}
+
+/*Fuentes*/
+body {
+    font-family: comics-2;
+}
+
+.navbar {
+
+    background-color: red;
+    font-size: 30px;
+}
+
+
+.anime {
+    font-size: 50px;
+}
+
+.navbar span {
+
+    color: black;
+}
+
+.nav-link {
+
+    color: black !important;
+
+}
+
+.nav-link:hover {
+
+    color: white !important;
+    font-weight: bold;
+
+}
+
+.navbar-toggler {
+
+    border: none;
+}
+
+.jumbotron {
+
+    background-image: linear-gradient(to right bottom, rgba(159, 149, 149, 0.5), rgba(159, 149, 149, 0.5)), url(./multimedia/crossover\ anime.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+
+    border-radius: 0;
+
+    p {
+
+        color: black;
+        text-align: left;
+        font-size: 40px;
+    }
+
+    h1 {
+        font-family: comics-2;
+        font-size: 60px;
+        text-align: left;
+        color: red;
+        width: 25%;
+        opacity: 70%;
+        display: flex;
+        justify-content: left;
+        animation-duration: 1.5s;
+        animation-name: aparecer;
+        animation-delay: 5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+
+
+
+        span {
+            color: black;
+        }
+    }
+
+
+}
+
+h2 {
+    color: black;
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0;
+
+
+
+    .animesmaspopulares {
+
+        height: 450px;
+
+
+        .animesmaspopulares .row {
+            height: 450px;
+        }
+    }
+}
+
+.nleft.opz {
+
+    background-image: url(./multimedia/one\ piece.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+}
+
+
+.nright.opz {
+
+    background-color: black;
+    color: white;
+
+
+
+    h3 {
+
+        color: red;
+        text-align: center;
+        padding: 20px;
+        font-size: 60px;
+
+
+        p {
+
+            color: whitered;
+            text-align: justify;
+            padding: 20px;
+            font-size: 20px;
+        }
+
+    }
+}
+
+button {
+
+    margin: 0 0 0 2%;
+}
+
+button:hover {
+
+    transform: scale(1.15);
+}
+
+
+.nleft.db {
+
+    background-image: url(./multimedia/dragon\ ball.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+}
+
+.nright.db {
+
+    background-color: black;
+    color: white;
+
+
+    h3 {
+
+        color: red;
+        text-align: center;
+        padding: 20px;
+        font-size: 60px;
+
+        p {
+
+            color: whitered;
+            text-align: justify;
+            padding: 20px;
+            font-size: 20px;
+        }
+
+    }
+}
+
+.nleft.naruto {
+
+    background-image: url(./multimedia/naruto.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+}
+
+.nright.naruto {
+
+    background-color: black;
+    color: white;
+
+
+    h3 {
+
+        color: red;
+        text-align: center;
+        padding: 20px;
+        font-size: 60px;
+
+        p {
+
+            color: whitered;
+            text-align: justify;
+            padding: 20px;
+            font-size: 20px;
+        }
+    }
+}
+
+.nleft.opening {
+
+    background-image: url(./multimedia/opening/opeing.png);
+    background-size: contain;
+    background-position: center;
+    height: 780px;
+
+}
+
+.animes {
+    color: white;
+
+}
+
+/*Medias Queriess*/
+
+@media (max-width: 480px) {
+
+
+    h1 {
+        font-family: comics-2;
+        font-size: 60px;
+        text-align: left;
+        color: red;
+        width: 25%;
+        opacity: 70%;
+        display: flex;
+        justify-content: left;
+        animation-duration: 1.5s;
+        animation-name: aparecer;
+        animation-delay: 5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+
+
+
+        span {
+            color: black;
+        }
+    }
+
+    .jumbotron p {
+
+        font-size: 18px;
+    }
+
+    .nleft {
+        height: 30%;
+    }
+
+    .nright.opz p {
+
+        font-size: 15px;
+        height: 40%;
+    }
+
+
+
+    .nright.db p {
+
+        font-size: 15px;
+        height: 40%;
+    }
+
+
+    .nright.naruto p {
+
+        font-size: 20px;
+        height: 40%;
+    }
+
+    .nright.sd p {
+
+        font-size: 20px;
+        height: 40%;
+    }
+
+
+    .nleft.sd {
+
+        height: 30%;
+
+    }
+
+
+    .nright.sd {
+
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        overflow: hidden;
+
+        h3 {
+
+            color: red;
+            text-align: center;
+            padding: 20px;
+            font-size: 30px;
+
+        }
+
+    }
+
+
+    .nleft.cr {
+
+        background-image: url(./multimedia/noticias/crunchyroll.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 480px;
+    }
+
+
+    .nright.cr {
+
+        background-color: black;
+        color: white;
+        font-size: 30px;
+
+        h3 {
+
+            color: red;
+            text-align: center;
+            padding: 20px;
+            font-size: 60px;
+
+        }
+    }
+
+    .nleft.netflix {
+
+        background-image: url(./multimedia/noticias/netflix.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 480px;
+    }
+
+
+    .nright.netflix {
+
+        background-color: black;
+        color: white;
+        font-size: 30px;
+
+        h3 {
+
+            color: red;
+            text-align: center;
+            padding: 20px;
+            font-size: 60px;
+
+        }
+    }
+
+    .footer {
+
+        height: 140%;
+        width: 100%;
+    }
+
+
+    .sebuscan {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .opyt {
+        overflow-x: hidden;
+        flex-direction: column
+    }
+
+
+
+
+    .jumbotron {
+
+
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+
+        p {
+
+            color: black;
+            text-align: left;
+            font-size: 20px;
+            opacity: 80%;
+
+
+        }
+    }
+
+    .dbp {
+
+        color: white;
+
+    }
+
+
+    .ki {
+        flex-direction: column;
+        justify-content: center;
+        overflow-x: hidden
+    }
+
+    .dbzyt {
+        flex-direction: column;
+        justify-content: center;
+        overflow-x: hidden
+    }
+
+    .nav-link::after {
+
+        content: "";
+        height: 4px;
+        width: 0;
+        background-color: white;
+        display: block;
+        transition: all 300ms;
+
+    }
+
+    .nav-link:hover::after {
+
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 720px) {
+
+
+
+    h1 {
+        font-family: comics-2;
+        font-size: 60px;
+        text-align: left;
+        color: red;
+        width: 25%;
+        opacity: 70%;
+        display: flex;
+        justify-content: left;
+        animation-duration: 1.5s;
+        animation-name: aparecer;
+        animation-delay: 5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+
+
+
+        span {
+            color: black;
+        }
+    }
+
+    .jumbotron p {
+
+        font-size: 20px;
+    }
+
+
+    .nleft {
+        height: 45%;
+    }
+
+
+    .nright.opz p {
+
+        font-size: 15px;
+        height: 22%;
+        padding: 0 20px 20px 20px;
+
+    }
+
+    .nright.db p {
+
+        font-size: 15px;
+        height: 20%;
+    }
+
+
+    .nright.naruto p {
+
+        font-size: 15px;
+        height: 30%;
+    }
+
+    .nright.sd p {
+
+        font-size: 20px;
+
+    }
+
+
+    .nright.cr p {
+
+        font-size: 20px;
+    }
+
+
+
+    .nright.netflix p {
+
+
+        font-size: 20px;
+
+    }
+
+
+
+    .footer {
+
+        height: 140%;
+        width: 100%;
+    }
+
+
+    .sebuscan {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+
+    .opyt {
+        text-align: center;
+        flex-direction: column
+    }
+
+
+    .ki {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+
+    .dbzyt {
+        text-align: center;
+        flex-direction: column
+    }
+
+    .nav-link::after {
+
+        content: "";
+        height: 4px;
+        width: 0;
+        background-color: white;
+        display: block;
+        transition: all 300ms;
+
+    }
+
+    .nav-link:hover::after {
+
+        width: 22%;
+    }
+
+}
+
+@media (min-width: 721px) and (max-width: 767px) {
+
+
+    h1 {
+        font-family: comics-2;
+        font-size: 60px;
+        text-align: left;
+        color: red;
+        width: 25%;
+        opacity: 70%;
+        display: flex;
+        justify-content: left;
+        animation-duration: 1.5s;
+        animation-name: aparecer;
+        animation-delay: 5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+
+
+
+        span {
+            color: black;
+        }
+    }
+
+    .nleft {
+        height: 45%;
+    }
+
+
+    .nright.opz p {
+
+        font-size: 15px;
+        height: 22%;
+        padding: 0 0 0 20px;
+        overflow-x: hidden;
+    }
+
+    .nright.db p {
+
+        font-size: 15px;
+        height: 20%;
+        overflow-x: hidden
+    }
+
+
+
+    .nright.naruto p {
+
+        font-size: 15px;
+        height: 30%;
+        overflow-x: hidden
+    }
+
+    .button {
+
+        text-align: right;
+    }
+
+
+    .footer {
+
+        margin: 58px 0 0 0;
+        height: 140%;
+        width: 100%;
+    }
+
+    .sebuscan {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+
+
+    .nav-link::after {
+
+        content: "";
+        height: 4px;
+        width: 0;
+        background-color: white;
+        display: block;
+        transition: all 300ms;
+
+    }
+
+    .nav-link:hover::after {
+
+        width: 22%;
+    }
+
+
+}
+
+/*Medias Queriess*/
+
+
+
+
+@media (min-width: 768px) and (max-width: 1080px) {
+
+
+
+    .sebuscan {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .opyt {
+        text-align: center;
+        flex-direction: column
+    }
+
+
+    .ki {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .dbzyt {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+
+
+    #personajesop h3 {
+
+        font-family: comics-2;
+        color: red;
+        font-size: 50px;
+        background-color: black;
+
+
+    }
+
+    .nav-link::after {
+
+        content: "";
+        height: 4px;
+        width: 0;
+        background-color: white;
+        display: block;
+        transition: all 300ms;
+
+    }
+
+    .nav-link:hover::after {
+
+        width: 15%;
+    }
+
+    h1 {
+        font-family: comics-2;
+        font-size: 60px;
+        text-align: left;
+        color: red;
+        width: 25%;
+        opacity: 70%;
+        display: flex;
+        justify-content: left;
+        animation-duration: 1.5s;
+        animation-name: aparecer;
+        animation-delay: 5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+
+
+
+        span {
+            color: black;
+        }
+    }
+
+
+}
+
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.dbp {
+
+    color: white;
+
+}
+
+
+
+.sebusca {
+
+    text-align: center;
+    color: white;
+    font-family: comics-2;
+    font-size: 25px;
+    padding: 150px 0 0 0;
+
+
+
+
+
+    :hover {
+        transform: scale(1.09);
+        transition: all 0.9s;
+
+
+    }
+
+
+
+    h3 {
+        padding: 50px 0 0 0;
+    }
+}
+
+.sebuscayt {
+
+    padding: 100px 0 0 0;
+
+
+
+    :hover {
+
+        color: red;
+    }
+}
+
+.mainop {
+
+    height: 400%;
+}
+
+.opyt {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Etiquetas para One Piece*/
+
+/* Etiquetas para Dragon Ball*/
+
+.dbdb {
+
+    background-image: url(./multimedia/dragon\ ball.jpg);
+    background-position: center;
+    background-size: cover;
+    ;
+}
+
+.ki {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+@media (min-width: 1081px) and (max-width: 1387px) {
+    .ki {
+        flex-direction: row;
+        justify-content: stretch;
+        overflow-x: hidden;
+
+    }
+
+
+
+    .dbzyt {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar {
+
+        width: 100%;
+    }
+
+    #personajesop {
+        width: 100%;
+    }
+
+    .op {
+
+        width: 100%;
+    }
+
+    .sebuscan {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .opyt {
+
+        width: 100%;
+        text-align: center;
+        justify-content: space-around;
+        flex-direction: row
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .nav-link::after {
+
+        content: "";
+        height: 4px;
+        width: 0;
+        background-color: white;
+        display: block;
+        transition: all 300ms;
+
+    }
+
+    .nav-link:hover::after {
+
+        width: 100%;
+    }
+
+    h1 {
+        font-family: comics-2;
+        font-size: 60px;
+        text-align: left;
+        color: red;
+        width: 25%;
+        opacity: 70%;
+        display: flex;
+        justify-content: left;
+        animation-duration: 1.5s;
+        animation-name: aparecer;
+        animation-delay: 5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+
+
+
+        span {
+            color: black;
+        }
+    }
+}
+
+@media (min-width: 1388px) {
+
+    .navbar {
+
+        width: 100%;
+    }
+
+    .sebuscan {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+
+    .ki {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .dbzyt {
+
+
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+
+    .nav-link::after {
+
+        content: "";
+        height: 4px;
+        width: 0;
+        background-color: white;
+        display: block;
+        transition: all 300ms;
+
+    }
+
+    .nav-link:hover::after {
+
+        width: 100%;
+
+    }
+
+    h1 {
+        font-family: comics-2;
+        font-size: 60px;
+        text-align: left;
+        color: red;
+        width: 25%;
+        opacity: 70%;
+        display: flex;
+        justify-content: left;
+        animation-duration: 1.5s;
+        animation-name: aparecer;
+        animation-delay: 5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+
+
+
+        span {
+            color: black;
+        }
+    }
+
+
+}
+
+.dbz {
+
+    text-align: center;
+    color: white;
+    font-family: comics-2;
+    font-size: 25px;
+    padding: 150px 0 0 0;
+
+
+
+
+    :hover {
+        transform: scale(1.09);
+        transition: all 0.9s;
+
+    }
+}
+
+.dbz h3 {
+    padding: 50px 0 0 0;
+}
+
+.dbgtyt {
+
+    padding: 100px 0 0 0;
+
+
+
+    :hover {
+
+        color: red;
+    }
+}
+
+.mainop {
+
+    height: 400%;
+}
+
+
+/* Etiquetas para One Piece*/
+
+
+.op {
+
+    background-color: black;
+}
+
+
+/* Etiquetas para Naruto*/
+
+.ns {
+    background-image: url(./multimedia/naruto/fondo\ naruto.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/* Etiquetas para Naruto*/
+
+/* Etiquetas para Anime*/
+
+.demografia {
+
+    background-color: black;
+    padding: 100px 0 0 0;
+    overflow: hidden;
+
+    h3 {
+        color: white;
+        text-align: center;
+        font-size: 45px;
+    }
+
+}
+
+.genero {
+
+    background-color: black;
+    padding: 200px 0 0 0;
+    overflow: hidden;
+
+    h3 {
+        color: white;
+        text-align: center;
+        font-size: 45px;
+    }
+}
+
+/* Etiquetas para Anime*/
+
+/* Etiquetas para Manga*/
+
+.john {
+
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 530px;
+    background-color: black;
+
+    img {
+
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .2;
+        transition: .5s ease;
+    }
+}
+
+.john :hover {
+
+
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+
+}
+
+/*Etiquetas Anime Inicia*/
+
+.animejumbotron {
+    background-image: linear-gradient(to right bottom, rgba(5, 4, 4, 0.5), rgba(21, 12, 12, 0.5)), url(./multimedia/manga/One_Piece_Naruto_Shippuuden_Bleach_Shaman_King_Dragon_Ball_Z_Death_Note_manga_Hunter_x_Hunter-222134.jpg!d);
+    background-size: cover;
+    background-position: center;
+    height: 510px;
+
+    p {
+        font-size: 20px;
+    }
+}
+
+
+/*Etiquetas Anime Finaliza*/
+
+
+/*Etiquetas Manga Inicia*/
+
+.mangajumbotron {
+    background-image: linear-gradient(to right bottom, rgba(5, 4, 4, 0.5), rgba(21, 12, 12, 0.5)), url(./multimedia/manga/One_Piece_Naruto_Shippuuden_Bleach_Shaman_King_Dragon_Ball_Z_Death_Note_manga_Hunter_x_Hunter-222134.jpg!d);
+    background-size: cover;
+    background-position: center;
+    height: 510px;
+
+    p {
+        font-size: 20px;
+    }
+}
+
+/*Etiquetas Manga Finaliza*/
+
+/*Etiquetas Videos Inicia*/
+
+.yt {
+    margin: 15px;
+}
+
+/*Etiquetas Video Finaliza*/
+
+/*Etiquetas Noticias Inicia*/
+
+.nleft.sd {
+
+    background-image: url(./multimedia/noticias/slamdunk.png);
+    background-size: cover;
+    background-position: center;
+    height: 480px;
+}
+
+
+.nright.sd {
+
+    background-color: black;
+    color: white;
+    font-size: 30px;
+
+    h3 {
+
+        color: red;
+        text-align: center;
+        padding: 20px;
+        font-size: 60px;
+
+    }
+
+}
+
+
+.nleft.cr {
+
+    background-image: url(./multimedia/noticias/crunchyroll.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 480px;
+}
+
+
+.nright.cr {
+
+    background-color: black;
+    color: white;
+    font-size: 30px;
+
+    h3 {
+
+        color: red;
+        text-align: center;
+        padding: 20px;
+        font-size: 60px;
+
+    }
+}
+
+.nleft.netflix {
+
+    background-image: url(./multimedia/noticias/netflix.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 480px;
+}
+
+
+.nright.netflix {
+
+    background-color: black;
+    color: white;
+    font-size: 30px;
+
+    h3 {
+
+        color: red;
+        text-align: center;
+        padding: 20px;
+        font-size: 60px;
+
+    }
+}
+
+
+
+/*Etiquetas Noticias Finaliza*/
+
+/*Etiquetas Footer Inicia*/
+
+.footer {
+    background: red;
+    border: black;
+    border-style: solid;
+    text-align: center;
+    font-family: comics-2;
+    padding: 15px;
+    color: black;
+
+
+    p:hover {
+
+        color: white;
+
+    }
+}
+
+
+.fa-brands {
+    font-size: 35px;
+    padding: 15px;
+    letter-spacing: 20px;
+    color: black;
+
+}
+
+.fa-brands:hover {
+    color: white;
+
+}
+
+
+
+.openings {
+
+    overflow-x: hidden;
+}
+
+
+/*Etiquetas Footer Termina*/
+
+.subir {
+
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    color: red;
+    text-align: center;
+    line-height: 32px;
+    font-size: 15px;
+    border-radius: 100%;
+
+
+}
+
+.subir:hover {
+
+
+    background-color: white;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    color: black;
+
+
+}
