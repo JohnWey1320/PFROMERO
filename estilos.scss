@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: none;
 
+
 }
 
 /*Fuentes*/
@@ -88,7 +89,7 @@ body {
         animation-delay: 5s;
         animation-direction: alternate;
         animation-iteration-count: infinite;
-        
+
 
 
 
@@ -437,7 +438,7 @@ button:hover {
     .dbzyt {
         flex-direction: column;
         justify-content: center;
-        overflow-x: hidden
+        overflow-x: hidden;
     }
 
     .nav-link::after {
@@ -569,7 +570,8 @@ button:hover {
 
     .dbzyt {
         text-align: center;
-        flex-direction: column
+        flex-direction: column;
+
     }
 
     .nav-link::after {
@@ -853,12 +855,13 @@ button:hover {
     background-image: url(./multimedia/dragon\ ball.jpg);
     background-position: center;
     background-size: cover;
-    ;
+
 }
 
 .ki {
     display: flex;
     flex-direction: row;
+
 }
 
 
@@ -898,6 +901,7 @@ button:hover {
         flex-direction: row;
         justify-content: space-around;
         width: 100%;
+        overflow-x: hidden;
     }
 
     .opyt {
@@ -910,6 +914,7 @@ button:hover {
 
     .footer {
         width: 100%;
+
     }
 
     .nav-link::after {
